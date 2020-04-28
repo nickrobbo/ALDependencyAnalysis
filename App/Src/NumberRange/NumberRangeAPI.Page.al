@@ -1,4 +1,4 @@
-page 99023 "ALDA Number Range API"
+page 123456723 "ALDA Number Range API"
 {
     PageType = API;
     Caption = 'restApi';

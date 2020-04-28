@@ -1,4 +1,4 @@
-table 99050 "ALDA Element Link"
+table 123456750 "ALDA Element Link"
 {
     DataClassification = ToBeClassified;
     LookupPageId = "ALDA Element Links";

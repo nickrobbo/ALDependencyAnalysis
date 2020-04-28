@@ -1,4 +1,4 @@
-codeunit 99020 "ALDA Number Range"
+codeunit 123456720 "ALDA Number Range"
 {
     procedure SetDefaultModule(var ALDANumberRange: Record "ALDA Number Range")
     var

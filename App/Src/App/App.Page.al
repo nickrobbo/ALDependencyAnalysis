@@ -1,4 +1,4 @@
-page 99072 "ALDA App"
+page 123456772 "ALDA App"
 {
     PageType = Card;
     ApplicationArea = All;
@@ -41,7 +41,7 @@ page 99072 "ALDA App"
             {
                 Caption = 'Picture';
                 ApplicationArea = All;
-                SubPageLink = App = field (App);
+                SubPageLink = App = field(App);
             }
         }
     }

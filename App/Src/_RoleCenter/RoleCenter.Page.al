@@ -1,4 +1,4 @@
-page 99005 "ALDA Role Center"
+page 123456705 "ALDA Role Center"
 {
     PageType = RoleCenter;
     Caption = 'ALDA Control Center';

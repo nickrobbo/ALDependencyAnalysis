@@ -1,11 +1,11 @@
-page 99010 "ALDA Model Objects"
+page 123456710 "ALDA Model Objects"
 {
     PageType = List;
     ApplicationArea = All;
     UsageCategory = Lists;
     SourceTable = "ALDA Model Object";
     CardPageId = "ALDA Model Object";
-    SourceTableView = sorting ("Object Type", "Object ID");
+    SourceTableView = sorting("Object Type", "Object ID");
 
     layout
     {

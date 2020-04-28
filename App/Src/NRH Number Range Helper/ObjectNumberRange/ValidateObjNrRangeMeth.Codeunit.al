@@ -1,4 +1,4 @@
-codeunit 99002 "ALDA ValidateObjNrRange Meth"
+codeunit 123456702 "ALDA ValidateObjNrRange Meth"
 {
     procedure ValidateObjectNumberRange(var ObjectNumberRange: Record "ALDA Object Number Range");
     var

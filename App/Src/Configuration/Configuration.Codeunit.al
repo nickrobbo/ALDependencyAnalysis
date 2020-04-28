@@ -1,4 +1,4 @@
-codeunit 99000 "ALDA Configuration"
+codeunit 123456700 "ALDA Configuration"
 {
     procedure GetConfiguration(var ALDAConfiguration: Record "ALDA Configuration")
     begin

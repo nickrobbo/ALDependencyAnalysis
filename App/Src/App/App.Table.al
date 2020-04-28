@@ -1,4 +1,4 @@
-table 99070 "ALDA App"
+table 123456770 "ALDA App"
 {
     DataClassification = ToBeClassified;
     LookupPageId = "ALDA Apps";
@@ -40,19 +40,19 @@ table 99070 "ALDA App"
             Caption = 'GraphMediaSet';
         }
 
-        field(99011; Codeunits; Integer)
+        field(123456711; Codeunits; Integer)
         {
             Caption = 'Codeunits';
             FieldClass = FlowField;
-            CalcFormula = count ("ALDA Model Object" where (App = field (App), "Object Type" = const ('CODEUNIT')));
+            CalcFormula = count ("ALDA Model Object" where(App = field(App), "Object Type" = const('CODEUNIT')));
             Editable = false;
         }
 
-        field(99030; Modules; Integer)
+        field(123456730; Modules; Integer)
         {
             Caption = 'Modules';
             FieldClass = FlowField;
-            CalcFormula = count ("ALDA Module" where (App = field (App)));
+            CalcFormula = count ("ALDA Module" where(App = field(App)));
             Editable = false;
         }
 

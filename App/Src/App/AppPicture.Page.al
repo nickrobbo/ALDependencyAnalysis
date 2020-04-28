@@ -1,4 +1,4 @@
-page 99074 "ALDA App Picture"
+page 123456774 "ALDA App Picture"
 {
     PageType = CardPart;
     SourceTable = "ALDA App";

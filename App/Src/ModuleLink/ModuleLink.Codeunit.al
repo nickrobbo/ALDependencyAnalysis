@@ -1,4 +1,4 @@
-codeunit 99060 "ALDA Module Link"
+codeunit 123456760 "ALDA Module Link"
 {
     procedure ToggleIgnore(var ALDAModuleLink: Record "ALDA Module Link")
     var

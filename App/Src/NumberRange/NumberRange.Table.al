@@ -1,4 +1,4 @@
-table 99020 "ALDA Number Range"
+table 123456720 "ALDA Number Range"
 {
     DataClassification = ToBeClassified;
     LookupPageId = "ALDA Number Ranges";
@@ -30,15 +30,15 @@ table 99020 "ALDA Number Range"
             DataClassification = ToBeClassified;
         }
 
-        field(99010; Objects; Integer)
+        field(123456710; Objects; Integer)
         {
             Caption = 'Objects';
             FieldClass = FlowField;
-            CalcFormula = count ("ALDA Model Object" where ("Number Range" = field (Code)));
+            CalcFormula = count ("ALDA Model Object" where("Number Range" = field(Code)));
             Editable = false;
         }
 
-        field(99030; "Default Module"; Code[20])
+        field(123456730; "Default Module"; Code[20])
         {
             Caption = 'Default Module';
             DataClassification = ToBeClassified;

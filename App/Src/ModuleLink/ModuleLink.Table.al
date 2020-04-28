@@ -1,4 +1,4 @@
-table 99060 "ALDA Module Link"
+table 123456760 "ALDA Module Link"
 {
     DataClassification = ToBeClassified;
     LookupPageId = "ALDA Module Links";
@@ -84,7 +84,7 @@ table 99060 "ALDA Module Link"
             Editable = false;
         }
 
-        field(99050; Links; Integer)
+        field(123456750; Links; Integer)
         {
             Caption = 'Links';
             FieldClass = FlowField;
@@ -92,7 +92,7 @@ table 99060 "ALDA Module Link"
             Editable = false;
         }
 
-        field(99051; Ignored; Integer)
+        field(123456751; Ignored; Integer)
         {
             Caption = 'Ignored';
             FieldClass = FlowField;
@@ -100,18 +100,18 @@ table 99060 "ALDA Module Link"
             Editable = false;
         }
 
-        field(99060; Link; Text[100])
+        field(123456760; Link; Text[100])
         {
             Caption = 'Link';
             DataClassification = ToBeClassified;
         }
-        field(99061; "Link Source"; Code[20])
+        field(123456761; "Link Source"; Code[20])
         {
             Caption = 'Link Source';
             DataClassification = ToBeClassified;
         }
 
-        field(99062; "Link Target"; Code[20])
+        field(123456762; "Link Target"; Code[20])
         {
             Caption = 'Link Target';
             DataClassification = ToBeClassified;

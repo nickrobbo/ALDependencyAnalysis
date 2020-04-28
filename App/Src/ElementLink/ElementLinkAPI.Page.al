@@ -1,4 +1,4 @@
-page 99053 "ALDA Element Link API"
+page 123456753 "ALDA Element Link API"
 {
     PageType = API;
     Caption = 'restApi';

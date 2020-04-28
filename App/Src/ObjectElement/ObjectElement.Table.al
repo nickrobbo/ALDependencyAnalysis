@@ -1,4 +1,4 @@
-table 99040 "ALDA Object Element"
+table 123456740 "ALDA Object Element"
 {
     DataClassification = ToBeClassified;
     LookupPageId = "ALDA Object Elements";
@@ -23,7 +23,7 @@ table 99040 "ALDA Object Element"
             Caption = 'Modified';
             DataClassification = ToBeClassified;
         }
-        field(99010; "Object UID"; Guid)
+        field(123456710; "Object UID"; Guid)
         {
             Caption = 'Object UID';
             DataClassification = ToBeClassified;

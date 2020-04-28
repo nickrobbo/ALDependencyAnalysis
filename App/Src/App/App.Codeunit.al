@@ -1,4 +1,4 @@
-codeunit 99070 "ALDA App"
+codeunit 123456770 "ALDA App"
 {
 
     local procedure AddTempLink(var ALDAModuleLinkTemp: record "ALDA Module Link" temporary; SourceApp: code[20]; TargetApp: code[20]; LinkSource: code[20]; LinkTarget: code[20])

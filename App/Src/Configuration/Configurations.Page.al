@@ -1,4 +1,4 @@
-page 99000 "ALDA Configurations"
+page 123456700 "ALDA Configurations"
 {
     PageType = List;
     UsageCategory = Lists;

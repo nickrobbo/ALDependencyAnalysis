@@ -1,4 +1,4 @@
-table 99030 "ALDA Module"
+table 123456730 "ALDA Module"
 {
     DataClassification = ToBeClassified;
     LookupPageId = "ALDA Modules";
@@ -49,7 +49,7 @@ table 99030 "ALDA Module"
             Editable = false;
         }
 
-        field(99010; Objects; Integer)
+        field(123456710; Objects; Integer)
         {
             Caption = 'Objects';
             FieldClass = FlowField;
@@ -57,7 +57,7 @@ table 99030 "ALDA Module"
             Editable = false;
         }
 
-        field(99060; Using; Integer)
+        field(123456760; Using; Integer)
         {
             Caption = 'Using';
             FieldClass = FlowField;
@@ -65,7 +65,7 @@ table 99030 "ALDA Module"
             Editable = false;
         }
 
-        field(99061; UsedBy; Integer)
+        field(123456761; UsedBy; Integer)
         {
             Caption = 'UsedBy';
             FieldClass = FlowField;
@@ -73,14 +73,14 @@ table 99030 "ALDA Module"
             Editable = false;
         }
 
-        field(99062; Circular; Integer)
+        field(123456762; Circular; Integer)
         {
             Caption = 'Circular';
             FieldClass = FlowField;
             CalcFormula = count ("ALDA Module Link" where("Source Module" = field(Code), Circular = const(true)));
             Editable = false;
         }
-        field(99063; MultiLevelCircular; Integer)
+        field(123456763; MultiLevelCircular; Integer)
         {
             Caption = 'MultiLevel Circular';
             FieldClass = FlowField;
@@ -88,7 +88,7 @@ table 99030 "ALDA Module"
             Editable = false;
         }
 
-        field(99070; App; Code[20])
+        field(123456770; App; Code[20])
         {
             Caption = 'App';
             DataClassification = ToBeClassified;

@@ -1,4 +1,4 @@
-codeunit 99030 "ALDA Module"
+codeunit 123456730 "ALDA Module"
 {
     procedure MakeGraphText(var ALDAModule: Record "ALDA Module"): Text
     var

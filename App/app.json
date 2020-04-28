@@ -22,8 +22,8 @@
   "platform": "15.0.0.0",
   "idRanges": [
     {
-      "from": 99000,
-      "to": 99099
+      "from": 123456700,
+      "to": 123456799
     }
   ],
   "contextSensitiveHelpUrl": "https://ALDependencyAnalysis.com/help/",

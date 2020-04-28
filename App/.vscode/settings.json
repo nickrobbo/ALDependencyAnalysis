@@ -2,8 +2,7 @@
     "al.enableCodeAnalysis": true,
     "CRS.DisableDefaultAlSnippets": true,
     "al.codeAnalyzers": [
-        "${CodeCop}",
-        "${PerTenantExtensionCop}"
+        "${CodeCop}"
     ],
     "al.ruleSetPath": "./.codeAnalysis/app.ruleset.json",
     "CRS.OnSaveAlFileAction": "Rename",
@@ -12,5 +11,6 @@
     "CRS.FileNamePatternPageCustomizations": "<ObjectNameShort>.<ObjectTypeShortPascalCase>.al",
     "CRS.ObjectNamePrefix": "ALDA ",
     "CRS.RemovePrefixFromFilename": true,
-    "editor.formatOnSave": true
+    "editor.formatOnSave": true,
+    "al.defaultLaunchConfigurationName": "Your own server"
 }

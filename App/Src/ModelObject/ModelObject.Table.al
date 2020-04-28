@@ -1,4 +1,4 @@
-table 99010 "ALDA Model Object"
+table 123456710 "ALDA Model Object"
 {
     DataClassification = ToBeClassified;
     LookupPageId = "ALDA Model Objects";
@@ -41,7 +41,7 @@ table 99010 "ALDA Model Object"
             DataClassification = ToBeClassified;
         }
 
-        field(99020; "Number Range"; Code[20])
+        field(123456720; "Number Range"; Code[20])
         {
             Caption = 'Number Range';
             DataClassification = ToBeClassified;
@@ -49,7 +49,7 @@ table 99010 "ALDA Model Object"
             ValidateTableRelation = true;
         }
 
-        field(99030; Module; Code[20])
+        field(123456730; Module; Code[20])
         {
             Caption = 'Module';
             DataClassification = ToBeClassified;
@@ -57,7 +57,7 @@ table 99010 "ALDA Model Object"
             ValidateTableRelation = true;
         }
 
-        field(99031; App; Code[20])
+        field(123456731; App; Code[20])
         {
             Caption = 'App';
             FieldClass = FlowField;
@@ -65,7 +65,7 @@ table 99010 "ALDA Model Object"
             Editable = false;
         }
 
-        field(99040; Elements; Integer)
+        field(123456740; Elements; Integer)
         {
             Caption = 'Elements';
             FieldClass = FlowField;
@@ -73,7 +73,7 @@ table 99010 "ALDA Model Object"
             Editable = false;
         }
 
-        field(99050; Using; Integer)
+        field(123456750; Using; Integer)
         {
             Caption = 'Using';
             FieldClass = FlowField;
@@ -81,7 +81,7 @@ table 99010 "ALDA Model Object"
             Editable = false;
         }
 
-        field(99051; "Used By"; Integer)
+        field(123456751; "Used By"; Integer)
         {
             Caption = 'Used By';
             FieldClass = FlowField;

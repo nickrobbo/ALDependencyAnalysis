@@ -1,4 +1,4 @@
-page 99095 "ALDA Activities"
+page 123456795 "ALDA Activities"
 {
     PageType = CardPart;
     SourceTable = "ALDA Cue";

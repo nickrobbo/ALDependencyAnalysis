@@ -1,4 +1,4 @@
-table 99000 "ALDA Configuration"
+table 123456700 "ALDA Configuration"
 {
     DataClassification = ToBeClassified;
     LookupPageId = "ALDA Configurations";

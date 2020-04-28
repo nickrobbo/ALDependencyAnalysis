@@ -12,5 +12,6 @@
     "CRS.FileNamePatternPageCustomizations": "<ObjectNameShort>.<ObjectTypeShort><BaseId>-PageCust.al",
     "CRS.ObjectNamePrefix": "ALDA ",
     "CRS.RemovePrefixFromFilename": true,
-    "editor.formatOnSave": true
+    "editor.formatOnSave": true,
+    "al.defaultLaunchConfigurationName": "Your own server"
 }

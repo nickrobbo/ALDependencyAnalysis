@@ -1,4 +1,4 @@
-table 99080 "ALDA Field Number Range"
+table 123456780 "ALDA Field Number Range"
 {
     DataClassification = ToBeClassified;
     LookupPageId = "ALDA Field Number Ranges";
